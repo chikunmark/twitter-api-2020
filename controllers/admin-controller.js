@@ -11,10 +11,7 @@ const adminController = {
       ]
     })
       .then(users => {
-        const result = users
-          .map(user => ({
-            ...user.toJSON()
-          }))
+        const result = users.map(user => ({ ...user.toJSON() }))
         result.forEach(r => {
           r.TweetsCount = r.Tweets.length
           r.FollowingsCount = r.Followings.length

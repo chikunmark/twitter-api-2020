@@ -16,12 +16,7 @@
     "logging": false
   },
   "production": {
-    "username": "sql12623784",
-    "password": "A37X6b1x6q",
-    "database": "sql12623784",
-    "host": "sql12.freesqldatabase.com",
-    "dialect": "mysql",
-    "logging": false
+    "use_env_variable": "CLEARDB_DATABASE_URL"
   },
   "travis": {
     "username": "travis",
