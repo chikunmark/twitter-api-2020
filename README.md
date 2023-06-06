@@ -86,7 +86,7 @@ POST http://localhost:3000/api/users
 
   ```
   {
-    "account": "user1@example.com",
+    "account": "user1",
     "password": "12345678"
   }
   ```
@@ -94,7 +94,7 @@ POST http://localhost:3000/api/users
 - 輸入以下帳號則可登入後台
   ```
   {
-    "account": "root@example.com",
+    "account": "root",
     "password": "12345678"
   }
   ```
